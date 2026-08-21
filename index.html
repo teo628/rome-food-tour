@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rome free food tour</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+  <!-- NAVBAR -->
+
+<nav>
+
+    <div class="logo">
+        Trastevere free food tour
+    </div>
+
+
+    <div class="nav-menu">
+
+        <button onclick="openPopup('aboutPopup')">
+            About
+        </button>
+
+        <button onclick="openPopup('routePopup')">
+            Tour Route
+        </button>
+
+        <button onclick="openPopup('contactPopup')">
+            Contact
+        </button>
+
+        <button onclick="openPopup('aboutMePopup')">
+            About Me
+        </button>
+
+    </div>
+
+</nav>
+
+
+
+    <!-- HERO -->
+
+    <header class="hero">
+
+        <div class="overlay"></div>
+
+        <div class="hero-content">
+
+            <p class="small-title">
+                ROME • LOCAL EXPERIENCE
+            </p>
+
+            <h1>
+                Discover Rome Through Local Eyes
+            </h1>
+
+            <p class="hero-text">
+                Learn about the city from a local perspective,
+                discover italian cuisine popular roots, and the history
+                that surrounded them
+            </p>
+
+      
+        </div>
+
+    </header>
+
+
+
+    <!-- ABOUT POPUP -->
+
+    <div id="aboutPopup" class="popup">
+
+        <div class="popup-content">
+
+            <button
+                class="close-button"
+                onclick="closePopup('aboutPopup')"
+            >
+                ×
+            </button>
+
+
+            <h2>
+                About the Experience
+            </h2>
+
+
+            <img
+                class="trastevere-image"
+                src="images/trastevere.jpg"
+                alt="Trastevere"
+            >
+
+
+            <details>
+
+                <summary>
+                    What is a free food tour?
+                </summary>
+
+                <p>
+                    Not an official city tour, just an informal walk.
+                    I'm a Roman student who simply wants to share
+                    what he loves about his city.
+                </p>
+
+            </details>
+
+
+            <details>
+
+                <summary>
+                    The spirit of a free food tour
+                </summary>
+
+                <p>
+                    As an unofficial tour, our walk around Trastevere
+                    won't follow a pre-fixed script. You can ask questions,
+                    interrupt, change the pace, or simply stop whenever
+                    you want.
+                </p>
+
+            </details>
+
+
+            <details>
+
+                <summary>
+                    Tour slots
+                </summary>
+
+                <p>
+                    There is no fixed schedule. The date and time of each
+                    walk can be arranged simply by contacting me through
+                    the Contact section below.
+                </p>
+
+                <p>
+                    NOTE: for the whole August and September, it is
+                    recommended to have the walk in the late afternoon
+                    to avoid the hottest hours of the day.
+                </p>
+
+            </details>
+
+
+            <details>
+
+                <summary>
+                    Important note
+                </summary>
+
+                <p>
+                    As an unofficial food tour, there is no fixed price.
+                </p>
+
+                <p>
+                    Tips are the only form of monetary contribution we can
+                    accept, as a token of appreciation for the experience.
+                </p>
+
+            </details>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- TOUR ROUTE POPUP -->
+
+    <div id="routePopup" class="popup">
+
+        <div class="popup-content">
+
+            <button
+                class="close-button"
+                onclick="closePopup('routePopup')"
+            >
+                ×
+            </button>
+
+
+            <h2>
+                Tour Route
+            </h2>
+
+
+            <p class="route-intro">
+
+                Our walk will take us around Trastevere, one of the
+                most visited yet genuinely "Roman" neighbourhoods.
+                Tour sessions will be really dinamic, as Trastevere
+                is well known as street food neighbourhood.
+
+            </p>
+
+
+            <!-- GOOGLE MAPS -->
+
+            <div class="map-container">
+
+    <iframe
+        src="https://www.google.com/maps/d/u/0/embed?mid=1rX9PYsIzultxWG_eK50xB0RUd2MT_4E&ehbc=2E312F&noprof=1"
+        width="100%"
+        height="450"
+        style="border:0;"
+        allowfullscreen="">
+    </iframe>
+
+</div>
+
+<div class="food-stops">
+
+
+    <div class="food-stop">
+
+        <div class="food-stop-title">
+            <span>A.</span>
+            <h3>Supplì Roma — I Supplì di Giacomo</h3>
+        </div>
+
+        <p>
+            Our walk will first stop to get the most typical appetizer,
+            specifically from Rome, that is ordered at the restaurant
+            before pizza. Supplì is just a rice ball, filled with tomato
+            sauce and stringy mozzarella, covered with a simple and
+            crispy breading. Discover why it's called "supplì al telefono".
+        </p>
+
+    </div>
+
+
+    <div class="food-stop">
+
+        <div class="food-stop-title">
+            <span>B.</span>
+            <h3>Antico Forno Santini</h3>
+        </div>
+
+        <p>
+            The second stop will show something most foreign people
+            don't expect before coming to Italy. Round pizza, served
+            in restaurants, isn't the most common way of eating the
+            most famous Italian product. Most daily consumers prefer
+            to get their pizza cut into rectangular slices, choosing
+            from an often limited but well-produced list of toppings,
+            to take away.
+        </p>
+
+    </div>
+
+
+    <div class="food-stop">
+
+        <div class="food-stop-title">
+            <span>C.</span>
+            <h3>Trapizzino — Trastevere</h3>
+        </div>
+
+        <p>
+            Following two really traditional tastings, Trapizzino
+            represents an example of using classic recipes under a
+            new shape. Soft triangles of bread are well-filled with
+            sauces like pollo alla cacciatora, polpette al sugo and
+            coda alla vaccinara. As the most consistent tasting,
+            it is recommended to keep some room in your stomach
+            for this stop.
+        </p>
+
+    </div>
+
+
+    <div class="food-stop">
+
+        <div class="food-stop-title">
+            <span>D.</span>
+            <h3>Il Maritozzo Rosso</h3>
+        </div>
+
+        <p>
+            Trapizzino may have satiated many, but you can still trust
+            the Italian saying "there's always room for one (or two)
+            desserts". Maritozzo is a sweet bun filled with cream,
+            which is supposed to melt in your mouth with no effort.
+        </p>
+
+    </div>
+
+
+    <div class="food-stop">
+
+        <div class="food-stop-title">
+            <span>E.</span>
+            <h3>Fatamorgana</h3>
+        </div>
+
+        <p>
+            A culinary tour in Trastevere can only end with the most
+            typical street food: Gelato. Recognising tourist traps
+            for Gelato is way easier than doing that with other dishes.
+            Always beware of bright colors and unnatural shapes in
+            ice cream containers. Fatamorgana offers a wide choice
+            of flavours, each designed by the producers, still
+            preserving a high quality service.
+        </p>
+
+    </div>
+
+
+</div>
+
+
+
+            <!-- STREET FOOD -->
+
+            <details>
+
+                <summary>
+                    About street food
+                </summary>
+
+                <p>
+                    You're going to taste the most consumed meals in Rome:
+                    street food means shorter waiting times, low prices,
+                    while preserving the variety of restaurants food.
+                </p>
+
+                <p>
+                    Taking pizza to school for recess, and having a gelato
+                    while walking are genuinely the most Italian activities
+                    I can think of.
+                </p>
+
+            </details>
+
+
+
+            <!-- ROMAN CUISINE -->
+
+            <details>
+
+                <summary>
+                    About Roman cuisine
+                </summary>
+
+                <p>
+                    Unlike many may argue, Roman cuisine is pretty much
+                    open to experimentations and new flavours, which means
+                    that Trastevere is like an open space culinary workshop.
+                </p>
+
+                <p>
+                    However, most of the places we're going to visit follow
+                    the Italian cuisine principle of "getting the best out
+                    of poor ingredients", which is what makes Italian cuisine
+                    so unique.
+                </p>
+
+            </details>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- CONTACT POPUP -->
+
+    <div id="contactPopup" class="popup">
+
+        <div class="popup-content">
+
+            <button
+                class="close-button"
+                onclick="closePopup('contactPopup')"
+            >
+                ×
+            </button>
+
+
+            <h2>
+                Contact
+            </h2>
+
+
+            <p class="card-intro">
+                Get in touch to arrange a walk around Trastevere.
+            </p>
+
+
+            <div class="contact-details">
+
+
+                <div class="contact-item">
+
+                    <h3>
+                        Whatsapp or SMS
+                    </h3>
+
+                    <p>
+                        +39 3661072400
+                    </p>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <h3>
+                        Telegram
+                    </h3>
+
+                    <p>
+                        @teo126
+                    </p>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <h3>
+                        Email
+                    </h3>
+
+                    <p>
+                        grechiteo@gmail.com
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- ABOUT ME POPUP -->
+
+    <div id="aboutMePopup" class="popup">
+
+        <div class="popup-content">
+
+            <button
+                class="close-button"
+                onclick="closePopup('aboutMePopup')"
+            >
+                ×
+            </button>
+
+
+            <h2>
+                About Me
+            </h2>
+
+
+            <div class="about-me-text">
+
+                <p>
+    I'm a 21-year-old Roman student who enjoys sharing his knowledge
+    about things he likes with other people. 
+</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- JAVASCRIPT -->
+
+    <script>
+
+        function openPopup(id) {
+
+            document.querySelectorAll(".popup").forEach(function(popup) {
+
+                popup.classList.remove("active");
+
+            });
+
+            document.getElementById(id).classList.add("active");
+
+        }
+
+
+        function closePopup(id) {
+
+            document.getElementById(id).classList.remove("active");
+
+        }
+
+
+        document.querySelectorAll(".popup").forEach(function(popup) {
+
+            popup.addEventListener("click", function(event) {
+
+                if (event.target === popup) {
+
+                    popup.classList.remove("active");
+
+                }
+
+            });
+
+        });
+
+    </script>
+
+
+</body>
+
+</html>
